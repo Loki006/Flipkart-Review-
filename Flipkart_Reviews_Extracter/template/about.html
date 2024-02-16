@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="/static/about.css" type="text/css" />
+    
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        /* box-sizing: border-box; */
+        padding: 0;
+      }
+
+      
+
+      /* .btn input {
+        margin: 10px 30px;
+        border: none;
+        background-color: blue;
+        padding: 12px 10px;
+        border-radius: 10px;
+        color: azure;
+        font-weight: bold;
+      } */
+
+      body {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h4 class="logo" style="color: #edf0f1">ABOUT</h4>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="{{url_for('home')}}">Home</a></li>
+          
+        </ul>
+      </nav>
+      <
+    </header>
+    <section class="about">
+      <div class="main">
+        <div class="about-text">
+          <h1>About Us</h1>
+          <h5>Product Reviews Sentiment Analyzer</h5>
+          <p>
+            The Flipkart reviews extraction and sentiment analysis project involves the development of a system that can extract customer reviews from the Flipkart website and perform sentiment analysis on the reviews to determine their overall sentiment (positive, negative, or neutral). The project involves several components, including web scraping tools, machine learning algorithms for sentiment analysis, and a user interface to present the sentiment analysis results.
+            <br /><br />
+            Flipkart reviews extraction and sentiment analysis project aims to provide users with a reliable and accurate way to analyze customer reviews on the Flipkart website. The system will be optimized for performance, scalability, and accuracy to handle large volumes of data and provide reliable sentiment analysis results
+          </p>
+          <h5>Hariharan</h5>
+          <h6>Developer <span> & Designer </span></h6>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer class="footer-css">
+    <nav>
+      <ul class="nav__footer">
+        <li><a href="{{url_for('home')}}">Home</a></li>
+       
+      </ul>
+    </nav>
+    <h3 class="footer-txt">PRODUCT REVIEWS SENTIMENT ANALYZER</h3>
+  </footer>
+</html>

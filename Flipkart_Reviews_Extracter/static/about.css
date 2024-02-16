@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: #1b1b1f;
+  height: 100vh;
+}
+::selection {
+  background: rgb(39, 232, 135);
+  color: white;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+header {
+  background: #24252a;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: alt 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: rgb(39, 232, 135);
+}
+.cta input {
+  padding: 9px 25px;
+  background-color: rgb(19, 157, 88);
+  color: azure;
+  border: 0.5px solid rgb(19, 174, 97);
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  transition: alt 0.3s ease 0s;
+  margin-left: 20px;
+}
+.cta input:hover {
+  background-color: rgb(12, 107, 60);
+}
+
+.footer-css {
+  position: sticky;
+  top: 100%;
+  text-align: center;
+  background-color: #24252a;
+  font-weight: 100px;
+  margin-top: 5%;
+}
+.nav__footer li {
+  display: inline-block;
+  padding: 45px 15px;
+}
+.nav__footer {
+  list-style: none;
+  padding: 0px 20px;
+}
+.nav__footer li a {
+  transition: alt 0.3s ease 0s;
+}
+
+.nav__footer li a:hover {
+  color: rgb(39, 232, 135);
+}
+.footer-txt {
+  color: white;
+  font-size: 13px;
+  padding: 40px;
+  margin-top: -5%;
+  opacity: 10;
+}
+.about {
+  width: 100%;
+  padding: 78px 0px;
+  text-align: left;
+  /* background-color: #191919; */
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.about-text h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  letter-spacing: 2px;
+}
+.about-text h6 {
+  color: white;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span {
+  color: rgb(39, 232, 135);
+}
+.about-text p {
+  color: rgba(150, 255, 173, 0.8);
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
